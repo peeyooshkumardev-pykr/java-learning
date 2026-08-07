@@ -15,12 +15,29 @@ public class CountDuplicateNumbersa {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int dup;
-        for(int i=0; i<arr.length-1; i++){
-            if(arr[i]==arr[i+1]){
-                dup = arr[i];
+        int count=0;
+        for(int i=0; i<arr.length; i++){
+            for(int j=i+1; j<arr.length; j++){
+                if(arr[i]==arr[j]){
+                    count++;
+                }
             }
         }
-        System.out.println(dup+" ");
+        System.out.println("Number of duplicates = "+count);
+        sc.close();
     }
 }
+// OUTPUT
+// 33
+// 44
+// 55
+// 33
+// 44 
+// 55
+// 55
+// 26
+// 41
+// 44
+// Array Elements
+// 33 44 55 33 44 55 55 26 41 44 
+// Number of duplicates = 7
