@@ -31,3 +31,7 @@ public class search_an_element {
         sc.close();
     }
 }
+//OUTPUT
+// 55 43 66 78 43 
+// Enter = 78
+// Found 78

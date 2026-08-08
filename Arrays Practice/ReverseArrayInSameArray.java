@@ -28,11 +28,6 @@ public class ReverseArrayInSameArray {
     }
 }
 // OUTPUT
-// 34
-// 55
-// 67
-// 88
-// 99
 // Array Elements
 // 34 55 67 88 99 
 // Reverse Array

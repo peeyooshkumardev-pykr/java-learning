@@ -1,8 +1,8 @@
-// Count Duplicate Elements
-// Take 10 integers and find how many elements appear more than once.
+// Count Elements Greater Than 50
+// Take 10 integers and count how many elements are greater than 50.
 
 import java.util.Scanner;
-public class CountDuplicateNumbersa {
+public class CountElementsGreaterThan50 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[10];
@@ -15,19 +15,18 @@ public class CountDuplicateNumbersa {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int count=0;
-        for(int i=0; i<arr.length; i++){
-            for(int j=i+1; j<arr.length; j++){
-                if(arr[i]==arr[j]){
-                    count++;
-                }
+
+        int count = 0;
+        for(int i = 0; i<arr.length; i++){
+            if(arr[i]>50){
+                count++;
             }
         }
-        System.out.println("Number of duplicates = "+count);
+        System.out.println("Number of elements are greater than 50 = " + count);
         sc.close();
     }
 }
 // OUTPUT
 // Array Elements
-// 33 44 55 33 44 55 55 26 41 44 
-// Number of duplicates = 7
+// 45 57 88 85 33 22 14 90 65 32 
+// Number of elements are greater than 50 = 5

@@ -35,16 +35,6 @@ public class PrintElementAtEvenIndex {
     }
 }
 //OUTPUT
-// 45
-// 89
-// 70
-// 56
-// 23
-// 14
-// 53
-// 12
-// 10
-// 87
 // Array Elements
 // 45 89 70 56 23 14 53 12 10 87 
 // Elements at even index

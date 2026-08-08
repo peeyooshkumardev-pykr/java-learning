@@ -1,12 +1,10 @@
-// Count Duplicate Elements
-// Take 10 integers and find how many elements appear more than once.
-
+// Find All Occurrences
+// Take 10 integers and a number. Print every index where that number occurs.
 import java.util.Scanner;
-public class CountDuplicateNumbersa {
+public class FindEveryOccurance {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[10];
-
         for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
@@ -15,19 +13,19 @@ public class CountDuplicateNumbersa {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        int count=0;
+        System.out.print("Enter Number = ");
+        int num = sc.nextInt();
+
         for(int i=0; i<arr.length; i++){
-            for(int j=i+1; j<arr.length; j++){
-                if(arr[i]==arr[j]){
-                    count++;
-                }
+            if(num==arr[i]){
+                System.out.print(i + " ");
             }
         }
-        System.out.println("Number of duplicates = "+count);
         sc.close();
     }
 }
-// OUTPUT
+//OUTPUT
 // Array Elements
-// 33 44 55 33 44 55 55 26 41 44 
-// Number of duplicates = 7
+// 34 22 12 45 12 89 12 67 12 55 
+// Enter Number = 12
+// 2 4 6 8 

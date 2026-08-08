@@ -39,16 +39,6 @@ public class SecondLargestNumber {
     }
 }
 //OUTPUT
-// 45
-// 34
-// 12
-// 33
-// 99
-// 77
-// 54
-// 67
-// 43
-// 58
 // Array Elements
 // 45 34 12 33 99 77 54 67 43 58 
 // Largest = 99

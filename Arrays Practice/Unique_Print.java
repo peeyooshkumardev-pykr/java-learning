@@ -35,16 +35,6 @@ public class Unique_Print {
     }
 }
 // OUTPUT
-// 45
-// 67
-// 89
-// 33
-// 22
-// 45
-// 67
-// 89
-// 22
-// 10
 // Array Elements
 // 45 67 89 33 22 45 67 89 22 10 
 // Number of Unique = 2

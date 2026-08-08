@@ -45,16 +45,6 @@ public class SumOfPositives_NegativesSeparate{
     }
 }
 //OUTPUT
-// 33
-// 22
-// 11
-// 34
-// -77
-// -10
-// -23
-// -45
-// -25
-// 67
 // Array Elements
 // 33 22 11 34 -77 -10 -23 -45 -25 67 
 // Psitives

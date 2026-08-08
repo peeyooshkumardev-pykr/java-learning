@@ -27,3 +27,8 @@ public class count_occurance {
         sc.close();
     }
 }
+// OUTPUT
+// Array Elements
+// 45 77 89 32 32 45 77 89 
+// Enter = 77
+// Number of 77 is 2

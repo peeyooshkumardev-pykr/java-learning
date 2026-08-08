@@ -37,16 +37,6 @@ public class ReplaceNegativeWith0 {
     }
 }
 //OUTPUT
-// 45
-// 90
-// -77
-// -77
-// -43
-// -56
-// -1
-// -2
-// -3
-// 55
 // Array Elements
 // 45 90 -77 -77 -43 -56 -1 -2 -3 55 
 // Converted from negative to 0

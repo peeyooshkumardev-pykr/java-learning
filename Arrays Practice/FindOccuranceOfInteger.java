@@ -47,16 +47,6 @@ public class FindOccuranceOfInteger {
     }
 }
 //OUTPUT
-// 34
-// 55
-// 78
-// 33
-// 12
-// -66
-// -90
-// 56
-// -12
-// 33
 // Array Elements
 // 34 55 78 33 12 -66 -90 56 -12 33 
 // Enter integer = -66

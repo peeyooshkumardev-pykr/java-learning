@@ -40,4 +40,11 @@ public class even_odd {
         sc.close();
     }
 }
+//OUTPUT
+// Array Elements
+// 44 67 21 33 67 
+// Even = 44 
+// No. of Evens = 1
 
+// Odd = 67 21 33 67 
+// No. of Odds = 4

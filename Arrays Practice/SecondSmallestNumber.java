@@ -41,16 +41,6 @@ public class SecondSmallestNumber {
      }
 }
 //OUTPUT
-// 44
-// 56
-// 33
-// 22
-// 67
-// 85
-// 35
-// 123
-// 56
-// 46
 // Array Element
 // 44 56 33 22 67 85 35 123 56 46 
 // Smallest = 22

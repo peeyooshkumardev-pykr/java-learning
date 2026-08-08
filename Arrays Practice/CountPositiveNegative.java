@@ -43,16 +43,6 @@ public class CountPositiveNegative {
     }
 }
 //OUTPUT
-// 33
-// -77
-// -77
-// -45
-// -44
-// -90
-// -77
-// 33
-// 545
-// 55
 // Array Elements
 // 33 -77 -77 -45 -44 -90 -77 33 545 55 
 // Positives = 33 33 545 55 

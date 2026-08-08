@@ -40,16 +40,6 @@ public class Difference_Between_Largest_Smallest {
     }
 }
 // //OUTPUT
-// 30
-// 50
-// 10
-// 20
-// 80
-// 100
-// 866
-// 2000
-// 495
-// 12
 // Array Elements
 // 30 50 10 20 80 100 866 2000 495 12 
 // Largest = 2000
