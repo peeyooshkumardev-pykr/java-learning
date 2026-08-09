@@ -1,13 +1,12 @@
-// Find Last Occurrence
-// Take 10 integers and a number. Find the last index where that number occurs.
+// Greater Than Both Neighbors
+// Take 10 integers and print every element that is greater than both its previous and next elements.
 
 import java.util.Scanner;
 
-public class LastOccurance {
+public class GreaterThanBothNeighbors {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[10];
-        
         for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
@@ -16,13 +15,11 @@ public class LastOccurance {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        System.out.print("Enter Number = ");
-        int num = sc.nextInt();
 
-        for(int i=arr.length-1; i>=0; i--){
-            if(num == arr[i]){
-                System.out.println("Last Index = "+i);
-                break;
+        System.out.println("Required Array Elements");
+        for(int i = 1; i<arr.length-1; i++){
+            if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+                System.out.print(arr[i] + " ");
             }
         }
         sc.close();
@@ -30,6 +27,6 @@ public class LastOccurance {
 }
 //OUTPUT
 // Array Elements
-// 33 22 11 67 55 67 11 22 55 22 
-// Enter Number = 11
-// Last Index = 6
+// 23 33 12 23 17 78 89 43 22 44 
+// Required Array Elements
+// 33 23 89 

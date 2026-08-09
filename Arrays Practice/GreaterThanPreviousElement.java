@@ -1,13 +1,13 @@
-// Find Last Occurrence
-// Take 10 integers and a number. Find the last index where that number occurs.
+// Greater Than Previous Element
+
+// Take 10 integers and print every element that is greater than the element immediately before it.
 
 import java.util.Scanner;
 
-public class LastOccurance {
+public class GreaterThanPreviousElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int arr[] = new int[10];
-        
         for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
@@ -16,20 +16,18 @@ public class LastOccurance {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
-        System.out.print("Enter Number = ");
-        int num = sc.nextInt();
 
-        for(int i=arr.length-1; i>=0; i--){
-            if(num == arr[i]){
-                System.out.println("Last Index = "+i);
-                break;
+        System.out.println("Required Array Elements");
+        for(int i = 1; i<arr.length; i++){
+            if(arr[i]>arr[i-1]){
+                System.out.print(arr[i] + " ");
             }
         }
         sc.close();
     }
 }
-//OUTPUT
+// OUTPUT
 // Array Elements
-// 33 22 11 67 55 67 11 22 55 22 
-// Enter Number = 11
-// Last Index = 6
+// 34 22 55 66 75 33 24 67 89 54 
+// Required Array Elements
+// 55 66 75 67 89 
