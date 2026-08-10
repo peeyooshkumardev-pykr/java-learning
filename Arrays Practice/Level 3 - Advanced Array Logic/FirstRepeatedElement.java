@@ -34,5 +34,5 @@ public class FirstRepeatedElement {
 }
 //OUTPUT
 // Array Elements
-// 34 22 44 66 87 22 76 66 87 66 
+// 34 44 22 12 67 22 45 67 12 45 
 // Output = 22
