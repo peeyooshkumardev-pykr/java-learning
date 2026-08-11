@@ -1,15 +1,14 @@
-# Java Arrays — Level 4: Advanced Array Problem Solving
+# Java Arrays — Level 4 Questions
 
 ## 1. Find the Missing Number
 
-You are given an array containing numbers from `1` to `n`, but exactly one number is missing. Find the missing number.
+Given an array containing numbers from `1` to `n`, with exactly one number missing, find the missing number.
 
 ### Example
 
 **Input:**
 
 ```text
-n = 10
 1 3 4 5 6 7 8 9 10
 ```
 
@@ -23,14 +22,13 @@ Missing Number = 2
 
 ## 2. Find Two Missing Numbers
 
-You are given an array containing numbers from `1` to `n`, but exactly two numbers are missing. Find both missing numbers.
+Given an array containing numbers from `1` to `n`, with exactly two numbers missing, find both missing numbers.
 
 ### Example
 
 **Input:**
 
 ```text
-n = 10
 1 2 3 4 6 7 9 10
 ```
 
@@ -68,9 +66,7 @@ Difference = 19
 
 ## 4. Find the Element That Appears Once
 
-You are given an array where every element appears exactly twice except one element, which appears only once. Find that element.
-
-If the input does not follow this rule, report it as invalid.
+Given an array where every element appears exactly twice except one element, find the element that appears only once.
 
 ### Example
 
@@ -84,20 +80,6 @@ If the input does not follow this rule, report it as invalid.
 
 ```text
 Element that appears once = 2
-```
-
-### Invalid Example
-
-**Input:**
-
-```text
-1 2 2 2 3 3 4
-```
-
-**Output:**
-
-```text
-Invalid Input
 ```
 
 ---
@@ -144,9 +126,9 @@ First Non-Repeating Element = 15
 
 ## 7. Find the Majority Element
 
-Given an array of `n` integers, find the element that appears **more than n/2 times**.
+Given an array of `n` integers, find the element that appears more than `n/2` times.
 
-If no element appears more than `n/2` times, no majority element exists.
+If no element appears more than `n/2` times, report that no majority element exists.
 
 ### Example
 
@@ -155,10 +137,6 @@ If no element appears more than `n/2` times, no majority element exists.
 ```text
 12 10 12 12 12 45 67 12
 ```
-
-Here, `n = 8`, so `n/2 = 4`.
-
-`12` appears 5 times.
 
 **Output:**
 
@@ -210,9 +188,7 @@ Given an array, print each distinct element only once while preserving the order
 
 ## 10. Find the Second Largest Distinct Element
 
-Given an array of integers, find the second largest **distinct** element.
-
-Duplicate values of the largest element should not be considered as the second largest.
+Given an array of integers, find the second largest distinct element.
 
 ### Example
 
@@ -228,27 +204,11 @@ Duplicate values of the largest element should not be considered as the second l
 Second Largest Distinct Element = 30
 ```
 
-### Another Example
-
-**Input:**
-
-```text
-5 9 9 3 7
-```
-
-**Output:**
-
-```text
-Second Largest Distinct Element = 7
-```
-
 ---
 
 ## 11. Find the Second Smallest Distinct Element
 
-Given an array of integers, find the second smallest **distinct** element.
-
-Duplicate values should be ignored.
+Given an array of integers, find the second smallest distinct element.
 
 ### Example
 
@@ -256,12 +216,6 @@ Duplicate values should be ignored.
 
 ```text
 8 3 5 3 1 8
-```
-
-The distinct values are:
-
-```text
-1 3 5 8
 ```
 
 **Output:**
@@ -274,11 +228,7 @@ Second Smallest Distinct Element = 3
 
 ## 12. Find the Element with the Maximum Difference from Its Neighbors
 
-For every element that has both a left and a right neighbor, compare it with those two neighboring elements.
-
-Find the element whose total difference from its two neighbors is the greatest.
-
-The first and last elements should not be considered because they have only one neighbor.
+For every element that has both a left and a right neighbor, find the element whose total absolute difference from its two neighbors is the greatest.
 
 ### Example
 
@@ -287,15 +237,6 @@ The first and last elements should not be considered because they have only one 
 ```text
 12 14 34 54 76 45
 ```
-
-The element `76` has:
-
-```text
-Left neighbor = 54
-Right neighbor = 45
-```
-
-Its total difference is the greatest among the middle elements.
 
 **Output:**
 
@@ -308,7 +249,7 @@ Maximum Difference = 53
 
 ## 13. Find All Elements Greater Than Every Element Before Them
 
-Given an array, find all elements that are greater than **every element appearing before them**.
+Given an array, find all elements that are greater than every element appearing before them.
 
 The first element automatically qualifies because there are no elements before it.
 
@@ -318,12 +259,6 @@ The first element automatically qualifies because there are no elements before i
 
 ```text
 2 5 3 7 6 9
-```
-
-The qualifying elements are:
-
-```text
-2 5 7 9
 ```
 
 **Output:**
@@ -337,11 +272,9 @@ Elements Greater Than All Previous Elements:
 
 ## 14. Find the Longest Strictly Increasing Subarray
 
-Given an array, find the **longest consecutive subarray where every element is greater than the element immediately before it**.
+Given an array, find the longest consecutive subarray where every element is greater than the element immediately before it.
 
-Here, **longest means the subarray containing the maximum number of consecutive elements**, not the maximum sum.
-
-If multiple increasing subarrays have the same length, print the **first one**.
+If multiple subarrays have the same maximum length, choose the first one.
 
 ### Example
 
@@ -351,25 +284,7 @@ If multiple increasing subarrays have the same length, print the **first one**.
 1 2 5 3 4 6 2 8
 ```
 
-The increasing subarrays are:
-
-```text
-1 2 5
-3 4 6
-2 8
-```
-
-Their lengths are:
-
-```text
-1 2 5       → Length = 3
-3 4 6       → Length = 3
-2 8         → Length = 2
-```
-
-Since the first two have the same longest length, choose the **first one**.
-
-### Output
+**Output:**
 
 ```text
 Longest Increasing Subarray:
@@ -378,3 +293,147 @@ Longest Increasing Subarray:
 Length = 3
 ```
 
+---
+
+## 15. Find the Longest Strictly Decreasing Subarray
+
+Given an array, find the longest consecutive subarray where every element is smaller than the element immediately before it.
+
+If multiple subarrays have the same maximum length, choose the first one.
+
+### Example
+
+**Input:**
+
+```text
+9 7 5 8 6 4 3 10
+```
+
+**Output:**
+
+```text
+Longest Decreasing Subarray:
+8 6 4 3
+
+Length = 4
+```
+
+---
+
+## 16. Find the Longest Consecutive Equal-Element Sequence
+
+Given an array, find the longest sequence of consecutive elements that are all equal.
+
+If multiple sequences have the same maximum length, choose the first one.
+
+### Example
+
+**Input:**
+
+```text
+5 5 2 2 2 7 7 3 3 3 3
+```
+
+**Output:**
+
+```text
+Longest Consecutive Equal-Element Sequence:
+3 3 3 3
+
+Length = 4
+```
+
+---
+
+## 17. Find the Element with the Maximum Frequency
+
+Given an array, find the element that appears the most number of times.
+
+Also print the number of times that element appears.
+
+If multiple elements have the same maximum frequency, choose the first one.
+
+### Example
+
+**Input:**
+
+```text
+4 7 4 2 7 4 9 7 4 2
+```
+
+**Output:**
+
+```text
+Element with Maximum Frequency = 4
+Number of times it appears = 4
+```
+
+---
+
+## 18. Find the Element with the Minimum Frequency
+
+Given an array, find the element that appears the fewest number of times.
+
+Also print the number of times that element appears.
+
+If multiple elements have the same minimum frequency, choose the first one.
+
+### Example
+
+**Input:**
+
+```text
+4 7 4 2 7 4 9 7 4 2
+```
+
+**Output:**
+
+```text
+Element with Minimum Frequency = 9
+Number of times it appears = 1
+```
+
+---
+
+## 19. Find All Elements Smaller Than Every Element Before Them
+
+Given an array, find all elements that are smaller than every element appearing before them.
+
+The first element automatically qualifies because there are no elements before it.
+
+### Example
+
+**Input:**
+
+```text
+8 5 6 3 4 2 7
+```
+
+**Output:**
+
+```text
+Elements Smaller Than All Previous Elements:
+8 5 3 2
+```
+
+---
+
+## 20. Find the Maximum Difference Between Two Adjacent Elements
+
+Given an array, find the largest absolute difference between two consecutive elements.
+
+Only compare elements that are next to each other.
+
+### Example
+
+**Input:**
+
+```text
+10 15 7 20 12 30
+```
+
+**Output:**
+
+```text
+Maximum Difference Between Adjacent Elements = 18
+```

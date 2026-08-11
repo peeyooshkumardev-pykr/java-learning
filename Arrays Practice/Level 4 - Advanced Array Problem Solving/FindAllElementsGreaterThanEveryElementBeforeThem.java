@@ -2,7 +2,7 @@
 // Given an array, find all elements that are greater than every element appearing before them.
 
 import java.util.Scanner;
-public class FindtheFirstElementGreaterThanAllElementsBeforeIt {
+public class FindAllElementsGreaterThanEveryElementBeforeThem{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size = ");

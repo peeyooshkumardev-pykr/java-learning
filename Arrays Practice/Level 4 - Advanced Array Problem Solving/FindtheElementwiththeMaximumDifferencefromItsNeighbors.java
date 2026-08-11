@@ -24,17 +24,14 @@ public class FindtheElementwiththeMaximumDifferencefromItsNeighbors {
 
         System.out.println();
 
-        int Maxdifference = 0;
+        int Maxdifference = -1;
         int middlelement = 0;
         for(int i = 1; i<arr.length-1; i++){
             int Leftdifference = 0;
             int Rightdifference = 0;
             int Sumdifference = 0;
 
-            Leftdifference = arr[i];
             Leftdifference = Math.abs(arr[i] - arr[i-1]);
-
-            Rightdifference = arr[i];
             Rightdifference = Math.abs(arr[i] - arr[i+1]);
 
             Sumdifference = Leftdifference + Rightdifference;
