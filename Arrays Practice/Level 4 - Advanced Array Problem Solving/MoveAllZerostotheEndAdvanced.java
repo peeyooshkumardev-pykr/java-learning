@@ -1,10 +1,11 @@
-// Remove Duplicate Elements
+// Move All Zeros to the End
 
-// Given an array, remove duplicate elements and print each value only once, 
-// while keeping the order of their first appearance.
+// Given an array, move all 0s to the end while keeping the order of the 
+// non-zero elements the same.
 
 import java.util.Scanner;
-public class RemoveDuplicateElements{
+
+public class MoveAllZerostotheEndAdvanced {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Size = ");
@@ -22,27 +23,32 @@ public class RemoveDuplicateElements{
 
         System.out.println();
 
+        int position = 0;
         for(int i = 0; i<arr.length; i++){
-            boolean isDistinct = false;
-            for(int j = 0; j<i; j++){
-                if(arr[i]==arr[j]){
-                    isDistinct = true;
-                }
+            if(arr[i]!=0){
+                arr[position] = arr[i];
+                position++;
             }
-            if(!isDistinct){
-                System.out.print(arr[i]+" ");
-            }
+        }
+        for(int i = position; i<arr.length; i++){
+            arr[i] = 0;
+        }
+        for(int i = 0; i<arr.length; i++){
+            System.out.print(arr[i]+" ");
         }
         sc.close();
     }
 }
 //OUTPUT
-// Enter Size = 5
-// 32
-// 32
-// 11
+// Enter Size = 8
 // 12
+// 0
+// 0
 // 12
+// 14
+// 15
+// 0
+// 0
 // Array Elements
-// 32 32 11 12 12 
-// 32 11 12 
+// 12 0 0 12 14 15 0 0 
+// 12 12 14 15 0 0 0 0
