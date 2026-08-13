@@ -15,16 +15,28 @@ public class Q04_FindTheFirstOccurrenceOfACharacter {
         System.out.print("Enter Character = ");
         char ch = sc.nextLine().charAt(0);
 
+        boolean found = false;
+        int firstIndex = -1;
         for(int i = 0; i<str.length(); i++){
             if(str.charAt(i)==ch){
-                System.out.println("Index of the first occurrence of "+ch+" = "+i);
+                firstIndex = i;
+                found = true;
                 break;
             }
+        }
+        if(found){
+            System.out.println("Index of the first occurrence of "+ch+" = "+firstIndex);
+        }else{
+            System.out.println("Character Not Found!");
         }
         sc.close();
     }
 }
 //Output
-// Enter String = DataTypes
-// Enter Character = T
-// Index of the first occurrence of T = 4
+// Enter String = Pulsur
+// Enter Character = u
+// Index of the first occurrence of u = 1
+
+// Enter String = Bike
+// Enter Character = s
+// Character Not Found!
