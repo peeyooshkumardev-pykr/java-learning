@@ -6,11 +6,9 @@ Given a string, remove duplicate characters while keeping the first occurrence.
 
 Example:
 
-Input:
-programming
+Input: programming
 
-Output:
-progamin
+Output: progamin
 
 
 ## Q02 — Check Whether a String Contains Duplicate Characters
@@ -19,19 +17,15 @@ Given a string, check whether any character appears more than once.
 
 Example:
 
-Input:
-hello
+Input: hello
 
-Output:
-String contains duplicate characters
+Output: String contains duplicate characters
 
 Example:
 
-Input:
-abcde
+Input: abcde
 
-Output:
-String does not contain duplicate characters
+Output: String does not contain duplicate characters
 
 
 ## Q03 — Print Characters That Appear More Than Once
@@ -42,13 +36,9 @@ Each character should be printed only once.
 
 Example:
 
-Input:
-programming
+Input: programming
 
-Output:
-r = 2
-g = 2
-m = 2
+Output: r = 2 g = 2 m = 2
 
 
 ## Q04 — Print Characters That Appear Exactly Once
@@ -57,15 +47,9 @@ Given a string, print every character whose frequency is exactly 1.
 
 Example:
 
-Input:
-programming
+Input: programming
 
-Output:
-p = 1
-o = 1
-a = 1
-i = 1
-n = 1
+Output: p = 1 o = 1 a = 1 i = 1 n = 1
 
 
 ## Q05 — Find the Second Most Frequent Character
@@ -74,11 +58,9 @@ Given a string, find the character with the second-highest frequency.
 
 Example:
 
-Input:
-banana
+Input: banana
 
-Output:
-Second Most Frequent Character = n
+Output: Second Most Frequent Character = n
 
 
 ## Q06 — Find the Longest Word in a Sentence
@@ -87,11 +69,9 @@ Given a sentence, find and print the longest word.
 
 Example:
 
-Input:
-Java programming is interesting
+Input: Java programming is interesting
 
-Output:
-Longest Word = programming
+Output: Longest Word = programming
 
 
 ## Q07 — Find the Shortest Word in a Sentence
@@ -100,24 +80,20 @@ Given a sentence, find and print the shortest word.
 
 Example:
 
-Input:
-Java programming is easy
+Input: Java programming is easy
 
-Output:
-Shortest Word = is
+Output: Shortest Word = is
 
 
-## Q08 — Reverse Each Word of a Sentence
+## Q08 — Find the Most Frequent Word
 
-Given a sentence, reverse every individual word while keeping the word order unchanged.
+Given a sentence, find the word that appears the most number of times.
 
 Example:
 
-Input:
-Java is easy
+Input: java is easy and java is powerful
 
-Output:
-avaJ si ysae
+Output: Most Frequent Word = java
 
 
 ## Q09 — Check Whether Two Strings Are Rotations
@@ -126,24 +102,24 @@ Given two strings, check whether one string is a rotation of the other.
 
 Example:
 
-String 1:
-abcd
+String 1: abcd
+String 2: cdab
 
-String 2:
-cdab
-
-Output:
-Strings are Rotations
+Output: Strings are Rotations
 
 
-## Q10 — Find the Most Frequent Word
+## Q10 — Check Whether a Sentence Is a Pangram
 
-Given a sentence, find the word that appears the most number of times.
+Given a sentence, check whether it contains every letter of the English alphabet at least once.
 
 Example:
 
-Input:
-java is easy and java is powerful
+Input: The quick brown fox jumps over the lazy dog
 
-Output:
-Most Frequent Word = java
+Output: Contains every letter of the English alphabet
+
+Example:
+
+Input: Hello Java
+
+Output: Not contain every letter of the English alphabet
