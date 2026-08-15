@@ -11,18 +11,41 @@ public class Q08_FindtheMostFrequentWord {
         System.out.print("Enter String = ");
         String str = sc.nextLine();
 
-        String word1st = "";
-        String word2nd = "";
-        int start = 0;
+        int start1 = 0;
+        int maxfrequency =0;
+        String mostfrequentWord = "";
+        
         for(int i = 0; i<=str.length(); i++){
+            String word1st = ""; 
 
             if(i==str.length() || str.charAt(i)==' '){
-                int count = 0;
-                for(int j = i - 1; j>=start; j--){
-                    
+                word1st = str.substring(start1, i);
+
+            int start2 = 0;
+            int frequency = 0; 
+
+            for (int j = 0; j<=str.length(); j++ ){
+                String word2nd = "";
+                if(j==str.length() || str.charAt(j)==' '){
+                        word2nd = str.substring(start2, j);
+
+                    if(word1st.equals(word2nd)){
+                        frequency++;
+                    }
+                    start2 = j + 1;
                 }
-                
             }
+                if(frequency>maxfrequency){
+                    maxfrequency = frequency;
+                    mostfrequentWord = word1st;
+                }
+            start1 = i + 1;
         }
     }
+        System.out.println("Most Frequent Word = "+mostfrequentWord);
+        sc.close();
+    }
 }
+//Output
+// Enter String = apple  banana banana  orange banana apple
+// Most Frequent Word = banana
