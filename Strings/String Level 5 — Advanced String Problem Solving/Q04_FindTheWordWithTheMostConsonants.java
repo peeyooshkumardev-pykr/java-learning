@@ -1,3 +1,6 @@
+// Q04 — Find the Word With the Most Consonants
+// Given a sentence, find the word that contains the highest number of consonants.
+
 import java.util.Scanner;
 
 public class Q04_FindTheWordWithTheMostConsonants {
@@ -37,5 +40,5 @@ public class Q04_FindTheWordWithTheMostConsonants {
 }
 //Output
 // Enter String = java programming code
-// Highest number of Consonents = 8
-// Word With the Most Consonents = programming
+// Highest number of Consonants = 8
+// Word With the Most Consonants = programming

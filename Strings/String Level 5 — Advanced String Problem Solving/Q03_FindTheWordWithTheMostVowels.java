@@ -32,7 +32,7 @@ public class Q03_FindTheWordWithTheMostVowels {
                 start = i + 1;
             }
         }
-        System.out.println("Highest number of vowels = " + maxVowels);
+        System.out.println("Highest number of Vowels = " + maxVowels);
         System.out.println("Word With the Most Vowels = " + word);
 
         sc.close();
