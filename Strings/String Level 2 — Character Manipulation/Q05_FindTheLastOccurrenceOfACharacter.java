@@ -25,11 +25,11 @@ public class Q05_FindTheLastOccurrenceOfACharacter {
         }
         if(Found){
         System.out.println("the index of the last occurrence of "+ch+" = "+lastIndex);
-        sc.close();
         }
         else{
             System.out.println("Character Not Found");
         }
+        
         sc.close();
     }
 }
