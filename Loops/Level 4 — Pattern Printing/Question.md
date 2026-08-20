@@ -159,9 +159,9 @@ Enter N = 5
 1112131415
 ```
 
-### Q11 — Print Floyd's Triangle
+### Q11 — Print a 0-1 Triangle
 
-Take an integer N and print Floyd's triangle.
+Take an integer N and print a triangle using alternating `0` and `1`.
 
 Example:
 
@@ -169,11 +169,12 @@ Example:
 Enter N = 5
 
 1
-2 3
-4 5 6
-7 8 9 10
-11 12 13 14 15
+01
+101
+0101
+10101
 ```
+
 
 ### Q12 — Print an Alphabet Triangle
 
@@ -239,9 +240,9 @@ Enter N = 5
 *        *
 **      **
 ***    ***
-****  **
+****  ****
 **********
-****  **
+****  ****
 ***    ***
 **      **
 *        *

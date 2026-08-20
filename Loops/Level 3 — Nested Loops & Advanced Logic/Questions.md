@@ -100,16 +100,17 @@ Example: Enter N = 5
 12
 1
 
-### Q11 — Print Continuous Number Pattern
+### Q10 — Find Numbers With Exactly Three Factors
 
-Take an integer N and print numbers continuously in rows.
+Take an integer N and print all numbers from 1 to N that have exactly 3 factors.
 
-Example: Enter N = 4
+Example: Enter N = 50
 
-1
-23
-456
-78910
+```text
+4 9 25 49
+```
+
+
 
 ### Q12 — Find the GCD of Two Numbers
 
