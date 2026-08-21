@@ -221,21 +221,22 @@ ABCDEFG
 ```
 
 
-### Q13 — Print a 0-1 Triangle
+### Q13 — Print a Palindromic Alphabet Pyramid
 
-Take an integer N and print a triangle using alternating 0 and 1.
+Take an integer N and print a centered pyramid where the alphabets increase and then decrease.
 
 Example:
 
 ```text
 Enter N = 5
 
-1
-01
-101
-0101
-10101
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
 ```
+
 
 
 ### Q14 — Print a Pascal's Triangle
