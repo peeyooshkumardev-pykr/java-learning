@@ -1,5 +1,7 @@
-// Q18 — Find Largest and Smallest Element Along With Their Indices
-// Take an array and find the largest and smallest elements along with their respective indices.
+// Q18 — Find Largest and Smallest Element Along With Their Indices and Sum Between Them
+
+// Take an array and find the largest and smallest elements along with their respective indices. 
+// Then calculate the sum of all elements strictly between their indices.
 
 import java.util.Scanner;
 

@@ -40,6 +40,7 @@ public class Q19_FindThePositionOfAGivenElement {
     }
 }
 // Output
-// Enter size = 8
-// 0 1 2 3 0 2 2 4
-// Enter element = 2 5 6 
+// Enter size = 10
+// 11 22 33 11 11 11 22 22 11 22
+// Enter element = 11
+// 0 3 4 5 8 
