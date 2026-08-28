@@ -6,13 +6,11 @@ Take an array containing numbers from `1` to `N`, with one number missing. Find 
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-1 2 3 5 6
+    Enter N = 6
+    Enter elements:
+    1 2 3 5 6
 
-Missing number = 4
-```
+    Missing number = 4
 
 ---
 
@@ -22,13 +20,11 @@ Take an array containing numbers where one element is repeated. Find the repeate
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 20 30 40 30 50
+    Enter N = 6
+    Enter elements:
+    10 20 30 40 30 50
 
-Repeated element = 30
-```
+    Repeated element = 30
 
 ---
 
@@ -38,14 +34,12 @@ Take an array of integers and a range from `1` to `N`. Find all numbers from the
 
 **Example:**
 
-```text
-Enter N = 8
-Enter elements:
-1 3 5 6 8
+    Enter N = 8
+    Enter elements:
+    1 3 5 6 8
 
-Missing elements:
-2 4 7
-```
+    Missing elements:
+    2 4 7
 
 ---
 
@@ -55,13 +49,11 @@ Take an array and find the first element that appears more than once while scann
 
 **Example:**
 
-```text
-Enter N = 7
-Enter elements:
-10 20 30 20 40 30 50
+    Enter N = 7
+    Enter elements:
+    10 20 30 20 40 30 50
 
-First repeating element = 20
-```
+    First repeating element = 20
 
 ---
 
@@ -71,13 +63,11 @@ Take an array and find the first element that occurs exactly once.
 
 **Example:**
 
-```text
-Enter N = 7
-Enter elements:
-10 20 30 20 10 40 30
+    Enter N = 7
+    Enter elements:
+    10 20 30 20 10 40 30
 
-First non-repeating element = 40
-```
+    First non-repeating element = 40
 
 ---
 
@@ -87,14 +77,12 @@ Take an array and find the element with the second-highest frequency.
 
 **Example:**
 
-```text
-Enter N = 9
-Enter elements:
-10 20 10 30 20 10 40 20 50
+    Enter N = 9
+    Enter elements:
+    10 20 10 30 20 10 40 20 50
 
-Second most frequent element = 20
-Frequency = 3
-```
+    Second most frequent element = 20
+    Frequency = 3
 
 ---
 
@@ -104,15 +92,14 @@ Take an array and print all elements that have the highest frequency.
 
 **Example:**
 
-```text
-Enter N = 8
-Enter elements:
-10 20 10 30 20 40 10 20
+    Enter N = 8
+    Enter elements:
+    10 20 10 30 20 40 10 20
 
-Most frequent elements:
-10 20
-Frequency = 3
-```
+    Most frequent elements:
+    10 20
+
+    Frequency = 3
 
 ---
 
@@ -122,15 +109,14 @@ Take an array and print all elements having the lowest frequency.
 
 **Example:**
 
-```text
-Enter N = 8
-Enter elements:
-10 20 10 30 20 40 50 20
+    Enter N = 8
+    Enter elements:
+    10 20 10 30 20 40 50 20
 
-Least frequent elements:
-30 40 50
-Frequency = 1
-```
+    Least frequent elements:
+    30 40 50
+
+    Frequency = 1
 
 ---
 
@@ -140,14 +126,12 @@ Take an array and print all elements that occur exactly two times.
 
 **Example:**
 
-```text
-Enter N = 9
-Enter elements:
-10 20 10 30 20 40 30 50 60
+    Enter N = 9
+    Enter elements:
+    10 20 10 30 20 40 30 50 60
 
-Elements appearing exactly twice:
-10 20 30
-```
+    Elements appearing exactly twice:
+    10 20 30
 
 ---
 
@@ -157,13 +141,11 @@ Take an array where every element appears twice except one element. Find the ele
 
 **Example:**
 
-```text
-Enter N = 7
-Enter elements:
-10 20 30 20 10 40 30
+    Enter N = 7
+    Enter elements:
+    10 20 30 20 10 40 30
 
-Element appearing once = 40
-```
+    Element appearing once = 40
 
 ---
 
@@ -173,18 +155,16 @@ Take an array and a target number. Print all pairs whose sum equals the target.
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 20 30 40 50 60
+    Enter N = 6
+    Enter elements:
+    10 20 30 40 50 60
 
-Enter target = 70
+    Enter target = 70
 
-Pairs:
-10 60
-20 50
-30 40
-```
+    Pairs:
+    10 60
+    20 50
+    30 40
 
 ---
 
@@ -194,15 +174,13 @@ Take an array and a target number. Count how many pairs have a sum equal to the 
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 20 30 40 50 60
+    Enter N = 6
+    Enter elements:
+    10 20 30 40 50 60
 
-Enter target = 70
+    Enter target = 70
 
-Number of pairs = 3
-```
+    Number of pairs = 3
 
 ---
 
@@ -212,16 +190,14 @@ Take an array and find the pair of elements having the maximum possible sum.
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 40 25 80 60 30
+    Enter N = 6
+    Enter elements:
+    10 40 25 80 60 30
 
-Pair with maximum sum:
-80 60
+    Pair with maximum sum:
+    80 60
 
-Maximum sum = 140
-```
+    Maximum sum = 140
 
 ---
 
@@ -231,16 +207,14 @@ Take an array and find two elements whose absolute difference is the smallest.
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 40 25 80 24 60
+    Enter N = 6
+    Enter elements:
+    10 40 25 80 24 60
 
-Pair:
-25 24
+    Pair:
+    25 24
 
-Minimum difference = 1
-```
+    Minimum difference = 1
 
 ---
 
@@ -250,29 +224,25 @@ Find the maximum absolute difference between any two elements in the array.
 
 **Example:**
 
-```text
-Enter N = 5
-Enter elements:
-10 40 20 80 30
+    Enter N = 5
+    Enter elements:
+    10 40 20 80 30
 
-Largest difference = 70
-```
+    Largest difference = 70
 
 ---
 
-### Q16 — Find the Smallest Difference Between Two Elements
+### Q16 — Find the Maximum Difference Where Larger Element Appears After Smaller Element
 
-Find the minimum absolute difference between any two elements in the array.
+Find the maximum value of `arr[j] - arr[i]` where `j > i`.
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-10 25 40 41 60 80
+    Enter N = 6
+    Enter elements:
+    7 1 5 3 6 4
 
-Smallest difference = 1
-```
+    Maximum difference = 5
 
 ---
 
@@ -282,14 +252,12 @@ An element is called a leader if it is greater than all elements to its right. P
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-16 17 4 3 5 2
+    Enter N = 6
+    Enter elements:
+    16 17 4 3 5 2
 
-Leaders:
-17 5 2
-```
+    Leaders:
+    17 5 2
 
 ---
 
@@ -299,13 +267,11 @@ Find an index where the sum of elements on the left is equal to the sum of eleme
 
 **Example:**
 
-```text
-Enter N = 5
-Enter elements:
-1 3 5 2 2
+    Enter N = 5
+    Enter elements:
+    1 3 5 2 2
 
-Equilibrium index = 2
-```
+    Equilibrium index = 2
 
 ---
 
@@ -315,27 +281,25 @@ Find an element that appears more than `N / 2` times in the array.
 
 **Example:**
 
-```text
-Enter N = 7
-Enter elements:
-2 2 1 2 3 2 2
+    Enter N = 7
+    Enter elements:
+    2 2 1 2 3 2 2
 
-Majority element = 2
-```
+    Majority element = 2
 
 ---
 
-### Q20 — Find the Maximum Difference Where Larger Element Appears After Smaller Element
+### Q20 — Find the Longest Increasing Consecutive Subarray
 
-Find the maximum value of `arr[j] - arr[i]` where `j > i`.
+Take an array and find the longest contiguous sequence where each element is greater than the previous element.
 
 **Example:**
 
-```text
-Enter N = 6
-Enter elements:
-7 1 5 3 6 4
+    Enter N = 8
+    Enter elements:
+    10 12 15 8 9 11 14 5
 
-Maximum difference = 5
-```
+    Longest increasing consecutive sequence:
+    8 9 11 14
 
+    Length = 4

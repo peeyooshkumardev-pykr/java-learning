@@ -263,50 +263,63 @@ Sum at even indices = 90
 Sum at odd indices = 120
 ```
 
-### Q18 — Find Largest and Smallest Element Along With Their Indices
+### Q18 — Find Largest and Smallest Element Along With Their Indices and Sum Between Them
 
-Take an array and find the largest and smallest elements along with their respective indices.
+Take an array and find the largest and smallest elements along with their respective indices. Then calculate the sum of all elements **strictly between their indices**.
 
 **Example:**
 
 ```text
-Enter N = 6
+Enter N = 7
 Enter elements:
-10 45 20 80 30 5
+10 20 5 30 40 8 15
 
-Largest = 80
-Largest index = 3
+Largest = 40
+Largest index = 4
 
 Smallest = 5
-Smallest index = 5
+Smallest index = 2
+
+Sum of elements between them = 30
 ```
 
-### Q19 — Find the Index of the Maximum Element
 
-Take an array from the user and find the index of its maximum element.
+### Q19 — Find the Position of a Given Element
+
+Take an array and an element from the user. Find and print **all indices where that element occurs**.
 
 **Example:**
 
 ```text
-Enter N = 5
+Enter N = 8
 Enter elements:
-15 40 25 90 30
+10 20 30 20 40 20 50 20
 
-Maximum element = 90
-Index = 3
+Enter element = 20
+
+Element found at indices:
+1 3 5 7
 ```
 
-### Q20 — Find the Index of the Minimum Element
 
-Take an array from the user and find the index of its minimum element.
+
+### Q20 — Count Elements Greater Than the Maximum of Another Array
+
+Take two arrays and count how many elements in the first array are greater than the maximum element of the second array.
 
 **Example:**
 
 ```text
-Enter N = 5
-Enter elements:
-15 40 5 90 30
+Array 1:
+10 50 30 80 40
 
-Minimum element = 5
-Index = 2
+Array 2:
+20 35 60
+
+Maximum of Array 2 = 60
+
+Elements in Array 1 greater than 60:
+80
+
+Count = 1
 ```

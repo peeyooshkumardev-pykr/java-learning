@@ -10,7 +10,7 @@ public class Q02_FindTheSecondSmallestElement {
         System.out.print("Enter Array Size = ");
         int n = sc.nextInt();
 
-        if(n==0){
+        if(n<=0){
             System.out.println("Invalid Size");
             sc.close();
             return;
