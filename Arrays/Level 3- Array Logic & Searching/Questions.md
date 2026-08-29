@@ -120,32 +120,38 @@ Take an array and print all elements having the lowest frequency.
 
 ---
 
-### Q09 — Find Elements Appearing Exactly Twice
+### Q09 — Find the Longest Streak of Equal Elements
 
-Take an array and print all elements that occur exactly two times.
+Take an array and find the longest contiguous sequence containing the same element.
 
 **Example:**
 
-    Enter N = 9
+    Enter N = 10
     Enter elements:
-    10 20 10 30 20 40 30 50 60
+    1 1 2 2 2 3 3 3 3 1
 
-    Elements appearing exactly twice:
-    10 20 30
+    Longest streak:
+    3 3 3 3
+
+    Element = 3
+    Length = 4
 
 ---
 
-### Q10 — Find the Element Appearing Once When Others Appear Twice
+### Q10 — Find the Element with the Maximum Difference from Its Previous Element
 
-Take an array where every element appears twice except one element. Find the element that appears only once.
+Take an array and find the pair of adjacent elements having the largest absolute difference.
 
 **Example:**
 
-    Enter N = 7
+    Enter N = 6
     Enter elements:
-    10 20 30 20 10 40 30
+    10 25 20 50 15 30
 
-    Element appearing once = 40
+    Pair:
+    50 15
+
+    Maximum difference = 35
 
 ---
 
@@ -168,19 +174,23 @@ Take an array and a target number. Print all pairs whose sum equals the target.
 
 ---
 
-### Q12 — Count Pairs Whose Sum Equals a Given Number
+### Q12 — Find the Pair with the Closest Sum to a Given Number
 
-Take an array and a target number. Count how many pairs have a sum equal to the target.
+Take an array and a target number. Find the pair whose sum has the smallest absolute difference from the target.
 
 **Example:**
 
     Enter N = 6
     Enter elements:
-    10 20 30 40 50 60
+    10 22 28 29 30 40
 
-    Enter target = 70
+    Enter target = 54
 
-    Number of pairs = 3
+    Closest pair:
+    22 30
+
+    Sum = 52
+    Difference = 2
 
 ---
 
@@ -232,17 +242,20 @@ Find the maximum absolute difference between any two elements in the array.
 
 ---
 
-### Q16 — Find the Maximum Difference Where Larger Element Appears After Smaller Element
+### Q16 — Find the Longest Alternating Parity Subarray
 
-Find the maximum value of `arr[j] - arr[i]` where `j > i`.
+Find the longest contiguous subarray where each adjacent pair contains one even and one odd number.
 
 **Example:**
 
-    Enter N = 6
+    Enter N = 9
     Enter elements:
-    7 1 5 3 6 4
+    2 5 8 7 4 6 3 9 10
 
-    Maximum difference = 5
+    Longest alternating subarray:
+    2 5 8 7 4
+
+    Length = 5
 
 ---
 
@@ -289,9 +302,9 @@ Find an element that appears more than `N / 2` times in the array.
 
 ---
 
-### Q20 — Find the Longest Increasing Consecutive Subarray
+### Q20 — Find the Longest Increasing Subarray
 
-Take an array and find the longest contiguous sequence where each element is greater than the previous element.
+Find the longest contiguous subarray where every element is greater than the previous element.
 
 **Example:**
 
@@ -299,7 +312,7 @@ Take an array and find the longest contiguous sequence where each element is gre
     Enter elements:
     10 12 15 8 9 11 14 5
 
-    Longest increasing consecutive sequence:
+    Longest increasing subarray:
     8 9 11 14
 
     Length = 4

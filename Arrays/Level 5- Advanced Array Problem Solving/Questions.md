@@ -1,7 +1,5 @@
 # 🔴 Java Arrays — Level 5: Advanced Array Problem Solving
 
-I checked it against **Levels 1–4** and removed the repeated concepts, including the previous duplicate maximum-difference question.
-
 ### Q01 — Find the Maximum Sum Subarray
 
 Take an array and find the contiguous subarray having the maximum sum.
@@ -51,45 +49,48 @@ Enter N = 5
 Enter elements:
 2 3 -2 4 -1
 
-Maximum product = 48
+Maximum product subarray:
+2 3
+
+Maximum product = 6
 ```
 
 ---
 
-### Q04 — Find the Longest Increasing Continuous Subarray
+### Q04 — Find the Longest Subarray with Equal Number of Even and Odd Elements
 
-Find the longest contiguous subarray where every element is greater than the previous element.
+Take an array and find the longest contiguous subarray containing an equal number of even and odd elements.
 
 **Example:**
 
 ```text
 Enter N = 8
 Enter elements:
-1 2 3 2 4 5 6 1
+2 4 1 3 6 8 5 7
 
-Longest increasing subarray:
-2 4 5 6
+Longest subarray:
+2 4 1 3 6 8 5 7
 
-Length = 4
+Length = 8
 ```
 
 ---
 
-### Q05 — Find the Longest Decreasing Continuous Subarray
+### Q05 — Find the Longest Subarray with Equal Number of Positive and Negative Elements
 
-Find the longest contiguous subarray where every element is smaller than the previous element.
+Take an array containing positive and negative integers and find the longest contiguous subarray containing an equal number of positive and negative elements.
 
 **Example:**
 
 ```text
-Enter N = 7
+Enter N = 8
 Enter elements:
-9 7 5 8 6 4 2
+1 -2 3 -4 5 6 -7 -8
 
-Longest decreasing subarray:
-8 6 4 2
+Longest subarray:
+1 -2 3 -4 5 6 -7 -8
 
-Length = 4
+Length = 8
 ```
 
 ---
@@ -103,33 +104,30 @@ Given an array containing only `0` and `1`, find the longest contiguous subarray
 ```text
 Enter N = 8
 Enter elements:
-0 0 1 0 0 0 1 1
+0 0 1 0 1 1 0 1
 
 Longest subarray:
-0 0 1 0 0 0 1 1
+0 0 1 0 1 1 0 1
 
 Length = 8
 ```
 
 ---
 
-### Q07 — Find a Subarray with a Given Sum
+### Q07 — Count Subarrays with Product Less Than a Given Number
 
-Take an array and a target sum. Find a contiguous subarray whose sum equals the target.
+Take an array of positive integers and a target number. Count how many contiguous subarrays have a product less than the target.
 
 **Example:**
 
 ```text
-Enter N = 6
+Enter N = 4
 Enter elements:
-2 4 1 3 5 2
+10 5 2 6
 
-Enter target = 8
+Enter target = 100
 
-Subarray:
-4 1 3
-
-Sum = 8
+Number of subarrays = 8
 ```
 
 ---
@@ -165,7 +163,10 @@ Enter elements:
 
 Enter target = 5
 
-Longest subarray length = 5
+Longest subarray:
+1 1 1 3
+
+Length = 4
 ```
 
 ---
@@ -212,21 +213,23 @@ Triplets:
 
 ---
 
-### Q12 — Find the Triplet with the Maximum Sum
+### Q12 — Find the Triplet Closest to a Given Target Sum
 
-Find three elements whose combined sum is maximum.
+Take an array and a target number. Find the three elements whose sum is closest to the target.
 
 **Example:**
 
 ```text
 Enter N = 6
 Enter elements:
-10 30 20 50 40 60
+-1 2 1 -4 5 3
 
-Triplet:
-40 50 60
+Enter target = 4
 
-Maximum sum = 150
+Closest triplet:
+-1 2 3
+
+Sum = 4
 ```
 
 ---
@@ -250,43 +253,40 @@ Minimum difference = 2
 
 ---
 
-### Q14 — Find the Intersection of Three Arrays
+### Q14 — Find the Maximum Length Subarray with Distinct Elements
 
-Take three arrays and print the elements that are present in all three arrays.
+Take an array and find the longest contiguous subarray in which every element is different.
 
 **Example:**
 
 ```text
-Array 1:
-10 20 30 40 50
+Enter N = 8
+Enter elements:
+1 2 3 1 4 5 3 6
 
-Array 2:
-20 30 40 60
+Longest subarray:
+1 4 5 3 6
 
-Array 3:
-30 40 70 80
-
-Common elements:
-30 40
+Length = 5
 ```
 
 ---
 
-### Q15 — Find the Union of Two Arrays Without Duplicates
+### Q15 — Find the Longest Consecutive Sequence
 
-Take two arrays and create a new array containing every distinct element from both arrays.
+Take an unsorted array and find the longest sequence of consecutive integers.
 
 **Example:**
 
 ```text
-Array 1:
-10 20 30 40
+Enter N = 7
+Enter elements:
+100 4 200 1 3 2 5
 
-Array 2:
-30 40 50 60
+Longest consecutive sequence:
+1 2 3 4 5
 
-Union:
-10 20 30 40 50 60
+Length = 5
 ```
 
 ---
@@ -323,21 +323,21 @@ Trapped water = 9
 
 ---
 
-### Q18 — Find the Maximum Product of Two Elements
+### Q18 — Find the Maximum XOR Pair
 
-Find two elements in the array whose product is maximum.
+Take an array and find two elements whose bitwise XOR value is maximum.
 
 **Example:**
 
 ```text
-Enter N = 6
+Enter N = 5
 Enter elements:
--10 -20 5 6 3 2
-
-Maximum product = 200
+3 10 5 25 2
 
 Pair:
--10 -20
+5 25
+
+Maximum XOR = 28
 ```
 
 ---
