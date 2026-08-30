@@ -12,7 +12,7 @@ public class Q16_FindTheLongestAlternatingParitySubarray {
         System.out.print("Enter Array size = ");
         int size = sc.nextInt();
 
-        if(size<=1){
+        if(size<=0){
             System.out.println("Invalid Input!");
             sc.close();
             return;
