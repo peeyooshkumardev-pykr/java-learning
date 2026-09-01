@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      {
+        "command": ".cursor/hooks/start-javac-watch.cmd"
+      }
+    ],
+    "sessionEnd": [
+      {
+        "command": ".cursor/hooks/stop-javac-watch.cmd"
+      }
+    ],
+    "afterFileEdit": [
+      {
+        "command": ".cursor/hooks/compile-java-file.cmd"
+      }
+    ]
+  }
+}

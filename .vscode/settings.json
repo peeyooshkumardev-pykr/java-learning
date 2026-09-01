@@ -1,0 +1,10 @@
+{
+  "java.autobuild.enabled": true,
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.executorMap": {
+    "java": "cmd /c javac -encoding UTF-8 $fileName && java $fileNameWithoutExt"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true
+}
