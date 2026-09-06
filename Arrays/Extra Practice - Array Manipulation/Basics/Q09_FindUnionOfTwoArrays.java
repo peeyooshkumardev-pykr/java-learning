@@ -128,6 +128,7 @@ public class Q09_FindUnionOfTwoArrays {
         }
 
         System.out.println("Output Union Array:");
+        
         for(int i = 0; i<arrUnion.length; i++){
             System.out.print(arrUnion[i]+" ");
         }
