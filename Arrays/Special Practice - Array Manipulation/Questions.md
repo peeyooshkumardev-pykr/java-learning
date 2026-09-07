@@ -10,19 +10,20 @@ Absolutely — **50 questions at once**, and I’ll make them **different from t
 
 ## 🟢 LEVEL 1 — BASIC MANIPULATION
 
-### Q01 — Shift Elements Right by K Positions
+# Array Special Practice — Problem Solving
 
-Shift all elements `K` positions to the right.
+### Q01 — Find the Equilibrium Index
 
-Unlike rotation, elements that fall outside the array are discarded and the newly created positions are filled with `0`.
+Given an array, find an index where the sum of all elements to its left is equal to the sum of all elements to its right.
 
 **Example:**
 
 ```text
-Input:  10 20 30 40 50
-K = 2
+Input:
+-7 1 5 2 -4 3 0
 
-Output: 0 0 10 20 30
+Output:
+3
 ```
 
 ---
@@ -90,17 +91,21 @@ Output:
 
 ---
 
-### Q06 — Swap Elements at Distance K
+### Q06 — Move the First Element to the Correct Position
 
-Swap:
+Given an array, move the **first element** to its correct position in the array assuming the remaining elements are already sorted in ascending order.
+
+Shift elements as necessary.
+
+**Example:**
 
 ```text
-arr[0] with arr[K]
-arr[1] with arr[K+1]
-...
-```
+Input:
+7 2 4 6 8 10
 
-Continue while both indices are valid.
+Output:
+2 4 6 7 8 10
+```
 
 ---
 
