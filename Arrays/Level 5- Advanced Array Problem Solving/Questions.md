@@ -40,7 +40,7 @@ Minimum sum = -7
 
 ### Q03 — Find the Maximum Product Subarray
 
-Take an array and find the contiguous subarray having the maximum product.
+Take an array and find the **contiguous subarray whose product is maximum**.
 
 **Example:**
 
@@ -50,9 +50,9 @@ Enter elements:
 2 3 -2 4 -1
 
 Maximum product subarray:
-2 3
+2 3 -2 4 -1
 
-Maximum product = 6
+Maximum product = 48
 ```
 
 ---
