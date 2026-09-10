@@ -1,5 +1,7 @@
 # 🔴 Java Arrays — Level 5: Advanced Array Problem Solving
 
+---
+
 ### Q01 — Find the Maximum Sum Subarray
 
 Take an array and find the contiguous subarray having the maximum sum.
@@ -8,10 +10,13 @@ Take an array and find the contiguous subarray having the maximum sum.
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 -2 1 -3 4 -1 2 1 -5
 
 Maximum sum subarray:
+
 4 -1 2 1
 
 Maximum sum = 6
@@ -27,10 +32,13 @@ Take an array and find the contiguous subarray having the minimum sum.
 
 ```text
 Enter N = 6
+
 Enter elements:
+
 3 -4 2 -5 6 -1
 
 Minimum sum subarray:
+
 -4 2 -5
 
 Minimum sum = -7
@@ -46,14 +54,21 @@ Take an array and find the **contiguous subarray whose product is maximum**.
 
 ```text
 Enter N = 5
+
 Enter elements:
+
 2 3 -2 4 -1
 
 Maximum product subarray:
+
 2 3 -2 4 -1
 
 Maximum product = 48
 ```
+
+**Check:**
+
+`2 × 3 × (-2) × 4 × (-1) = 48` ✅
 
 ---
 
@@ -65,14 +80,19 @@ Take an array and find the longest contiguous subarray containing an equal numbe
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 2 4 1 3 6 8 5 7
 
 Longest subarray:
+
 2 4 1 3 6 8 5 7
 
 Length = 8
 ```
+
+**Check:** 4 even + 4 odd ✅
 
 ---
 
@@ -80,18 +100,25 @@ Length = 8
 
 Take an array containing positive and negative integers and find the longest contiguous subarray containing an equal number of positive and negative elements.
 
+**Note:** Zero is neither positive nor negative.
+
 **Example:**
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 1 -2 3 -4 5 6 -7 -8
 
 Longest subarray:
+
 1 -2 3 -4 5 6 -7 -8
 
 Length = 8
 ```
+
+**Check:** 4 positive + 4 negative ✅
 
 ---
 
@@ -103,14 +130,19 @@ Given an array containing only `0` and `1`, find the longest contiguous subarray
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 0 0 1 0 1 1 0 1
 
 Longest subarray:
+
 0 0 1 0 1 1 0 1
 
 Length = 8
 ```
+
+**Check:** 4 zeros + 4 ones ✅
 
 ---
 
@@ -122,7 +154,9 @@ Take an array of positive integers and a target number. Count how many contiguou
 
 ```text
 Enter N = 4
+
 Enter elements:
+
 10 5 2 6
 
 Enter target = 100
@@ -140,12 +174,22 @@ Take an array and a target sum. Count how many contiguous subarrays have a sum e
 
 ```text
 Enter N = 5
+
 Enter elements:
+
 1 2 3 2 1
 
 Enter target = 5
 
 Number of subarrays = 2
+```
+
+**Valid subarrays:**
+
+```text
+2 3
+
+3 2
 ```
 
 ---
@@ -158,16 +202,23 @@ Take an array and a target sum. Find the longest contiguous subarray whose sum e
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 1 2 1 1 1 3 2 1
 
 Enter target = 5
 
 Longest subarray:
-1 1 1 3
+
+1 2 1 1
 
 Length = 4
 ```
+
+**Check:**
+
+`1 + 2 + 1 + 1 = 5` ✅
 
 ---
 
@@ -179,16 +230,47 @@ Take an array of positive integers and a target number. Find the smallest contig
 
 ```text
 Enter N = 6
+
 Enter elements:
+
 2 3 1 2 4 3
 
 Enter target = 7
 
 Smallest subarray:
+
 4 3
 
-Length = 2
+Sum = 7
 ```
+
+The above subarray is **not valid** because the sum must be **greater than 7**.
+
+Therefore, use the following corrected example:
+
+```text
+Enter N = 6
+
+Enter elements:
+
+2 3 1 2 4 3
+
+Enter target = 7
+
+Smallest subarray:
+
+3 1 2 4
+
+Sum = 10
+
+Length = 4
+```
+
+**Check:**
+
+`3 + 1 + 2 + 4 = 10 > 7` ✅
+
+There is no valid subarray of length 1, 2, or 3 whose sum is greater than 7. Therefore, length 4 is the smallest.
 
 ---
 
@@ -200,14 +282,19 @@ Take an array and a target value. Find all unique triplets whose sum equals the 
 
 ```text
 Enter N = 6
+
 Enter elements:
+
 1 2 3 4 5 6
 
 Enter target = 9
 
 Triplets:
+
 1 2 6
+
 1 3 5
+
 2 3 4
 ```
 
@@ -221,12 +308,15 @@ Take an array and a target number. Find the three elements whose sum is closest 
 
 ```text
 Enter N = 6
+
 Enter elements:
+
 -1 2 1 -4 5 3
 
 Enter target = 4
 
 Closest triplet:
+
 -1 2 3
 
 Sum = 4
@@ -236,16 +326,19 @@ Sum = 4
 
 ### Q13 — Find the Triplet with the Minimum Difference
 
-Find three elements such that the difference between the largest and smallest element of the triplet is minimum.
+Take an array and find three elements such that the difference between the largest and smallest element of the triplet is minimum.
 
 **Example:**
 
 ```text
 Enter N = 7
+
 Enter elements:
+
 10 12 15 20 11 30 13
 
 Triplet:
+
 10 11 12
 
 Minimum difference = 2
@@ -261,10 +354,13 @@ Take an array and find the longest contiguous subarray in which every element is
 
 ```text
 Enter N = 8
+
 Enter elements:
+
 1 2 3 1 4 5 3 6
 
 Longest subarray:
+
 1 4 5 3 6
 
 Length = 5
@@ -280,10 +376,13 @@ Take an unsorted array and find the longest sequence of consecutive integers.
 
 ```text
 Enter N = 7
+
 Enter elements:
+
 100 4 200 1 3 2 5
 
 Longest consecutive sequence:
+
 1 2 3 4 5
 
 Length = 5
@@ -299,23 +398,31 @@ Given an array representing stock prices on different days, find the maximum pro
 
 ```text
 Enter N = 6
+
 Stock prices:
+
 7 1 5 3 6 4
 
 Maximum profit = 5
 ```
 
+**Buy at:** `1`
+
+**Sell at:** `6`
+
 ---
 
 ### Q17 — Find the Rain Water Trapped Between Array Elements
 
-Given an array representing heights of bars, calculate how much rainwater can be trapped between them.
+Given an array representing the heights of bars, calculate how much rainwater can be trapped between them.
 
 **Example:**
 
 ```text
 Enter N = 6
+
 Heights:
+
 4 2 0 3 2 5
 
 Trapped water = 9
@@ -331,14 +438,21 @@ Take an array and find two elements whose bitwise XOR value is maximum.
 
 ```text
 Enter N = 5
+
 Enter elements:
+
 3 10 5 25 2
 
 Pair:
+
 5 25
 
 Maximum XOR = 28
 ```
+
+**Check:**
+
+`5 ^ 25 = 28` ✅
 
 ---
 
@@ -350,11 +464,37 @@ Treat the array as circular, meaning the last element is connected to the first.
 
 ```text
 Enter N = 5
+
 Enter elements:
+
 5 -3 5 2 -1
+
+Maximum circular subarray:
+
+5 2 -1 5
 
 Maximum circular subarray sum = 11
 ```
+
+**Check:**
+
+The subarray starts near the end:
+
+```text
+2 -1
+```
+
+and wraps around to the beginning:
+
+```text
+5 5
+```
+
+So:
+
+`2 + (-1) + 5 + 5 = 11` ✅
+
+The wrapping is valid because each original element is used only once.
 
 ---
 
@@ -366,8 +506,24 @@ Find the maximum possible sum by selecting elements such that no two selected el
 
 ```text
 Enter N = 6
+
 Enter elements:
+
 3 2 7 10 12 7
+
+Selected elements:
+
+3 7 12
 
 Maximum sum = 22
 ```
+
+**Check:**
+
+`3 + 7 + 12 = 22` ✅
+
+The selected elements are at indexes `0, 2, 4`, so no two selected elements are adjacent.
+
+---
+
+# 🔴 Level 5 — 20 Questions Complete

@@ -1,5 +1,6 @@
 /* Q05 — Find the Longest Subarray with Equal Number of Positive and Negative Elements
-Take an array containing positive and negative integers and find the longest contiguous subarray containing an equal number of positive 
+Take an array containing positive and negative integers and find the longest contiguous 
+subarray containing an equal number of positive 
 and negative elements. */
 
 import java.util.Scanner;
